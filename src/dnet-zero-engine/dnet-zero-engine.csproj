@@ -4,13 +4,6 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <OverrideHtmlAssetPlaceholders>false</OverrideHtmlAssetPlaceholders>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-    <OutputPath>../dnet-zero-ui/public/engine</OutputPath>
-    <BlazorEnableCompressedBinary>false</BlazorEnableCompressedBinary>
-    <BlazorWebAssemblyEnableCompression>false</BlazorWebAssemblyEnableCompression>
-    <StaticWebAssetBasePathMode>DisableHashing</StaticWebAssetBasePathMode>
   </PropertyGroup>
 
   <ItemGroup>
