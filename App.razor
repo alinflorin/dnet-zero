@@ -1,7 +1,18 @@
 ﻿<FluentLayout>
-    <FluentStack Orientation="Orientation.Horizontal" Width="100%">
-        <FluentBodyContent>
-            <h1>Hello, worlddddsdd!</h1>
+    <FluentStack Class="main" Orientation="Orientation.Horizontal" Width="100%">
+        <FluentBodyContent Class="body-content">
+            <ErrorBoundary>
+                <ChildContent>
+                    <div class="content">
+                        <h1>Hello, worlddddsdd!</h1>
+
+                        Welcome to your new Fluent Blazor app.
+                    </div>
+                </ChildContent>
+                <ErrorContent Context="ex">
+                    <div class="blazor-error-boundary">@ex.Message</div>
+                </ErrorContent>
+            </ErrorBoundary>
         </FluentBodyContent>
     </FluentStack>
 </FluentLayout>
