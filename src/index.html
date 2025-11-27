@@ -6,11 +6,13 @@
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preload" id="webassembly">
     <script type="importmap"></script>
   </head>
   <body>
     <app-root></app-root>
-    <div style="display: none" id="app"></div>
+    <div id="app"></div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
   </body>
 </html>

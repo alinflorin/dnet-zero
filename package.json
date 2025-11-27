@@ -2,7 +2,7 @@
   "name": "dnet-zero",
   "version": "0.0.0",
   "scripts": {
-    "start": "concurrently \"ng serve\" \"dotnet watch run --project src/engine\""
+    "start": "concurrently \"ng serve\" \"dotnet watch run --no-hot-reload --project src/engine\""
   },
   "prettier": {
     "printWidth": 100,
