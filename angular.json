@@ -86,7 +86,8 @@
               "buildTarget": "dnet-zero:build:production"
             },
             "development": {
-              "buildTarget": "dnet-zero:build:development"
+              "buildTarget": "dnet-zero:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

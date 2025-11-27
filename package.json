@@ -2,11 +2,8 @@
   "name": "dnet-zero",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "start": "concurrently \"ng serve\" \"dotnet watch run --project src/engine\"",
+    "build": "dotnet publish -c Release --project src/engine -o ./public/ && ng build"
   },
   "prettier": {
     "printWidth": 100,
@@ -36,6 +33,7 @@
     "@angular/build": "^21.0.1",
     "@angular/cli": "^21.0.1",
     "@angular/compiler-cli": "^21.0.0",
+    "concurrently": "^9.2.1",
     "typescript": "~5.9.2"
   }
 }

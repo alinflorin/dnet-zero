@@ -1,0 +1,14 @@
+{
+    "/_framework": {
+        "target": "http://localhost:5000",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    },
+    "/_content": {
+        "target": "http://localhost:5000",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+}
